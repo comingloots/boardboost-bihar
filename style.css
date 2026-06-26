@@ -1,0 +1,239 @@
+/* ===========================
+   BoardBoost Bihar
+   Premium Mobile UI v1
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#0f172a,#1e3a8a);
+
+color:white;
+
+min-height:100vh;
+
+padding:20px;
+
+}
+
+/* Header */
+
+header{
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+header h1{
+
+font-size:34px;
+
+font-weight:700;
+
+}
+
+header p{
+
+margin-top:8px;
+
+opacity:.8;
+
+font-size:15px;
+
+}
+
+/* Hero */
+
+.hero{
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(12px);
+
+padding:25px;
+
+border-radius:20px;
+
+margin-bottom:25px;
+
+text-align:center;
+
+border:1px solid rgba(255,255,255,.2);
+
+}
+
+.hero h2{
+
+font-size:26px;
+
+margin-bottom:15px;
+
+}
+
+.hero p{
+
+line-height:1.6;
+
+opacity:.9;
+
+margin-bottom:20px;
+
+}
+
+.hero a{
+
+display:inline-block;
+
+padding:12px 25px;
+
+background:white;
+
+color:#1e3a8a;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+/* Search */
+
+.search-box{
+
+display:flex;
+
+gap:10px;
+
+margin-bottom:25px;
+
+}
+
+.search-box input{
+
+flex:1;
+
+padding:14px;
+
+border:none;
+
+border-radius:12px;
+
+outline:none;
+
+font-size:15px;
+
+}
+
+.search-box button{
+
+padding:14px 20px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:12px;
+
+font-weight:600;
+
+}
+
+/* Subjects */
+
+.subjects{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:15px;
+
+margin-bottom:30px;
+
+}
+
+.card{
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(12px);
+
+padding:22px;
+
+border-radius:18px;
+
+text-align:center;
+
+font-weight:600;
+
+font-size:17px;
+
+border:1px solid rgba(255,255,255,.15);
+
+transition:.3s;
+
+}
+
+.card:active{
+
+transform:scale(.95);
+
+}
+
+/* Buttons */
+
+.buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.buttons button{
+
+padding:16px;
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+border-radius:14px;
+
+font-size:16px;
+
+font-weight:600;
+
+}
+
+/* Footer */
+
+footer{
+
+margin-top:40px;
+
+text-align:center;
+
+opacity:.7;
+
+font-size:14px;
+
+}
