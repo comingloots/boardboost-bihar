@@ -294,3 +294,104 @@ font-size:14px;
 transform:scale(.96);
 
 }
+/* ==========================
+Question Page
+========================== */
+
+.question-container{
+
+margin-top:30px;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.question-card{
+
+width:100%;
+
+background:rgba(255,255,255,.12);
+
+padding:25px;
+
+border-radius:20px;
+
+backdrop-filter:blur(12px);
+
+border:1px solid rgba(255,255,255,.15);
+
+}
+
+.question-card h3{
+
+opacity:.8;
+
+margin-bottom:15px;
+
+}
+
+.question-card h2{
+
+font-size:22px;
+
+line-height:1.6;
+
+margin-bottom:25px;
+
+}
+
+.question-card button{
+
+padding:14px;
+
+border:none;
+
+border-radius:12px;
+
+background:#2563eb;
+
+color:white;
+
+font-size:16px;
+
+font-weight:600;
+
+margin-top:10px;
+
+width:100%;
+
+}
+
+.answer{
+
+display:none;
+
+margin-top:20px;
+
+padding:18px;
+
+border-radius:12px;
+
+background:rgba(255,255,255,.15);
+
+line-height:1.6;
+
+}
+
+.nav-buttons{
+
+display:flex;
+
+gap:12px;
+
+margin-top:25px;
+
+}
+
+.nav-buttons button{
+
+flex:1;
+
+}
