@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Science",
+    "chapter": "Chemical Reactions",
+    "question": "रासायनिक अभिक्रिया क्या है?",
+    "answer": "जिस प्रक्रिया में एक या अधिक पदार्थ मिलकर नए पदार्थ बनाते हैं उसे रासायनिक अभिक्रिया कहते हैं।"
+  },
+  {
+    "subject": "Science",
+    "chapter": "Chemical Reactions",
+    "question": "ऑक्सीकरण किसे कहते हैं?",
+    "answer": "किसी पदार्थ में ऑक्सीजन का जुड़ना या हाइड्रोजन का हटना ऑक्सीकरण कहलाता है।"
+  },
+  {
+    "subject": "Mathematics",
+    "chapter": "Quadratic Equation",
+    "question": "द्विघात समीकरण का सामान्य रूप लिखिए।",
+    "answer": "ax² + bx + c = 0, जहाँ a ≠ 0"
+  },
+  {
+    "subject": "Social Science",
+    "chapter": "Nationalism",
+    "question": "राष्ट्रवाद क्या है?",
+    "answer": "अपने राष्ट्र के प्रति प्रेम और निष्ठा की भावना को राष्ट्रवाद कहते हैं।"
+  },
+  {
+    "subject": "English",
+    "chapter": "Grammar",
+    "question": "What is a Noun?",
+    "answer": "A noun is the name of a person, place, thing or idea."
+  }
+]
