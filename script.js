@@ -76,3 +76,25 @@ card.style.transform="scale(1)";
 });
 
 });
+const answerBox = document.getElementById("answerBox");
+const showAnswerBtn = document.getElementById("showAnswerBtn");
+
+if(showAnswerBtn){
+
+showAnswerBtn.onclick = function(){
+
+if(answerBox.style.display==="block"){
+
+answerBox.style.display="none";
+showAnswerBtn.innerText="Show Answer";
+
+}else{
+
+answerBox.style.display="block";
+showAnswerBtn.innerText="Hide Answer";
+
+}
+
+}
+
+}
